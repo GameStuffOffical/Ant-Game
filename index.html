@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ant Game</title>
+</head>
+<body>
+    <h1>Ants</h1>
+    <h2>Total Ants: <span id="ants"></span></h2>
+    <button onclick="makeLarvae(1); updateGUI()">Make Larva</button> <span id="larvae"></span>
+    <p>Costs: 10 Food</p>
+    <button onclick="makeWorker(1); updateGUI()">Make Worker</button> <span id="workers"></span>
+    <p>Costs: 10 Food, 1 larvae</p>
+    <button onclick="makeExplorer(1); updateGUI()">Make Explorer</button> <span id="explorers"></span>
+    <p>Costs: 10 Food, 1 larvae</p>
+    <button onclick="makeBuilder(1); updateGUI()">Make Builder</button> <span id="builders"></span>
+    <p>Costs: 10 Food, 1 larvae</p>
+    <button onclick="makeMeatProcessor(1); updateGUI()">Make Meat Processor</button> <span id="meat processors"></span>
+    <p>Costs: 20 Food, 1 larvae</p>
+    <button onclick="makeQueen(1); updateGUI()">Make Queen</button> <span id="queens"></span>
+    <p>Costs: 100 Food, 10 larvae</p>
+
+    <h2>Storage: <span id="usedStorage"></span>/<span id="storage"></span></h2>
+    <p>Food: <span id="food"></span></p>
+    <p>Meat: <span id="meat"></span></p>
+    <h2>Territory: <span id="territory"></span></h2>
+    <p>Avaliable Food: <span id="avaliableFood"></span></p>
+    <p>Avaliable Meat: <span id="avaliableMeat"></span></p>
+    
+    <p>V0.0.1</p>
+    <p>If you experience bugs or simply want to say something about my game you can message me at, kalebcolewiles2@gmail.com.</p>
+</body>
+<script src="javascript/ant.js"></script>
+<script src="javascript/main.js"></script>
+</html>
